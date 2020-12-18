@@ -1,0 +1,28 @@
+tr:hover th {
+    background:grey;
+    color: red;
+}
+tr:hover td, tr:hover td:first-child {
+    background: grey;
+    color:red;
+}
+thead {
+    font-weight: bold;
+}
+thead > tr > th,tbody > tr > td:first-child {
+    background: #afdaf5;
+    color: white;
+}
+
+td:first-child, th:first-child {
+    width: 100px;
+    padding-left: 15px;
+}
+
+td:not(:first-child), th:not(:first-child) {
+    width: 90px;
+    text-align: center;
+}
+thead > tr > th:first-child {
+    text-align: start;
+}
