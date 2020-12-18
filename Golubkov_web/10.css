@@ -11,7 +11,7 @@ thead {
 }
 thead > tr > th,tbody > tr > td:first-child {
     background: #afdaf5;
-    color: white;
+    color:white;
 }
 
 td:first-child, th:first-child {
