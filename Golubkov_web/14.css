@@ -15,21 +15,21 @@ ul:after {
     content: ' ';
     clear: both;
 }
-ul.mmenuu > li {
+ul.mmenu > li {
     float: left;
     position: relative;
 }
-ul.mmenuu> li > a {
+ul.mmenu> li > a {
     display: block;
     color: #fff;
     padding: 10px;
     text-decoration: none;
     background-color: #da570f;
 }
-ul.mmenuu > li > a:hover {
+ul.mmenu > li > a:hover {
     background-color: #eb9316;
 }
-ul.ssubmenuu {
+ul.ssubmenu {
     position: absolute;
     width: 240px;
     top: 37px;
@@ -40,17 +40,17 @@ ul.ssubmenuu {
 ul.submenu > li {
     display: block;
 }
-ul.ssubmenuu > li > a {
+ul.ssubmenu > li > a {
     display: block;
     text-decoration: none;
     padding: 10px;
     color: #ffffff;
     background-color: #5997e7;
 }
-ul.ssubmenuu > li > a:hover {
+ul.ssubmenu > li > a:hover {
     background-color: #a318be;
     text-decoration: underline;
 }
-ul.mmenuu > li:hover > ul.ssubmenuu {
+ul.mmenu > li:hover > ul.ssubmenu{
     display: block;
 }
